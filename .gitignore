@@ -69,6 +69,10 @@ htmlcov/
 synthetic_dataset.geojson
 *.geojson.bak
 
+# Screenshots (keep placeholder, ignore actual images if large)
+# docs/images/*.png
+# docs/images/*.jpg
+
 # Temporary files
 *.tmp
 *.temp

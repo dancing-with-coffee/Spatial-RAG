@@ -26,6 +26,30 @@ Spatial-RAG extends classic RAG by adding a spatial retrieval layer that enforce
 - **🧪 Synthetic Data Generator**: Built-in tool for generating realistic test datasets with 1000+ spatial documents
 - **🐳 Docker-First**: Complete containerized setup with PostGIS + pgvector + FastAPI + Next.js
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Main Interface
+![Main Interface](docs/images/main-interface.png)
+*Spatial-RAG main interface showing query panel, interactive map, and results visualization*
+
+### Query Results with Map
+![Query Results](docs/images/query-results.png)
+*Example query results with retrieved documents displayed on map and in list, with AI-generated answer*
+
+### Interactive Map Detail
+![Map Detail](docs/images/map-detail.png)
+*Close-up view of the interactive map showing search radius, document markers, and spatial clustering*
+
+### AI Answer Generation
+![AI Answer](docs/images/ai-answer.png)
+*AI-generated answer based on spatially-relevant retrieved documents*
+
+</div>
+
+> **📷 Screenshot Instructions**: To add screenshots, follow the guide in [docs/TAKE_SCREENSHOTS.md](docs/TAKE_SCREENSHOTS.md). The application must be running at http://localhost:3000 to capture screenshots.
+
 ## 🏗️ Architecture
 
 ```
