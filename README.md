@@ -570,4 +570,4 @@ For questions, issues, or contributions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for exploring spatial intelligence and latent world models**
+**Made with ❤️ for exploring spatial intelligence**
