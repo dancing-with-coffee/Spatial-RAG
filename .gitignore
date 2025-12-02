@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+*.egg-info/
+*.so
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+pgdata/
+*.pid
+*.seed
+*.pid.lock
+
+# Model cache
+models/
+*.joblib
+*.pkl
+.cache/
+huggingface/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# Generated data
+synthetic_dataset.geojson
+*.geojson.bak
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
