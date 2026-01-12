@@ -15,9 +15,12 @@ class Settings(BaseSettings):
     database_user: str = "postgres"
     database_password: str = "postgres"
 
+    # HuggingFace
+    huggingface_token: str = ""
+
     # Embedding model
-    embedding_model: str = "BAAI/bge-small-en-v1.5"
-    embedding_dimension: int = 384
+    embedding_model: str = "google/embeddinggemma-300m"
+    embedding_dimension: int = 768
 
     # Retrieval settings
     retrieval_top_k: int = 10

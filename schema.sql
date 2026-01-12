@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS spatial_docs (
     content TEXT NOT NULL,
     geom GEOMETRY(Geometry, 4326),
     h3_index BIGINT,
-    embedding VECTOR(384),  -- BGE-small-en-v1.5 outputs 384 dimensions
+    embedding VECTOR(768),  -- google/embeddinggemma-300m outputs 768 dimensions
     metadata JSONB DEFAULT '{}',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
