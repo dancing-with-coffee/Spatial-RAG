@@ -91,7 +91,7 @@ Please answer the question based on the above spatial context."""
         response = self.client.chat.completions.create(
             model=self.settings.llm_model,
             messages=messages,
-            temperature=self.settings.llm_temperature,
+            # temperature=self.settings.llm_temperature,
         )
 
         return response.choices[0].message.content
@@ -109,7 +109,7 @@ Please answer the question based on the above spatial context."""
         response = self.client.chat.completions.create(
             model=self.settings.llm_model,
             messages=messages,
-            temperature=self.settings.llm_temperature,
+            # temperature=self.settings.llm_temperature,
             stream=True,
         )
 

@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     huggingface_token: str = ""
 
     # Embedding model
-    embedding_model: str = "google/embeddinggemma-300m"
+    embedding_model: str = "text-embedding-3-small"
     embedding_dimension: int = 768
 
     # Retrieval settings
@@ -39,7 +39,7 @@ class Settings(BaseSettings):
         return f"postgresql://{self.database_user}:{self.database_password}@{self.database_host}:{self.database_port}/{self.database_name}"
 
     class Config:
-        env_file = ".env"
+        env_file = "../.env"  # .env is in project root, not api folder
         env_file_encoding = "utf-8"
 
 
